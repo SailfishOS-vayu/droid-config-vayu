@@ -1,0 +1,4 @@
+/system/osso/dsm/energymanagement/enable_power_saving=true
+/system/osso/dsm/energymanagement/psm_threshold=15
+/system/osso/dsm/display/als_autobrightness=true
+/system/osso/dsm/display/display_dim_timeout=120

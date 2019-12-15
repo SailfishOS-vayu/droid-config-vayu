@@ -1,0 +1,11 @@
+[desktop/jolla]
+reboot_action_enabled=true
+
+[lipstick/weatherbanner]
+expanded=true
+
+[meegotouch/i18n]
+lc_timeformat24h='24'
+
+[sailfish/i18n]
+lc_timeformat24h='24'
