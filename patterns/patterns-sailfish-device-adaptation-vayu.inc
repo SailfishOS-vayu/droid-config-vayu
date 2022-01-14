@@ -85,6 +85,9 @@ Requires: geoclue-provider-hybris
 #Requires: nfcd-binder-plugin
 #Requires: nfcd-pn54x-plugin
 
+# For torch
+Requires: jolla-settings-system-flashlight
+
 # For mount partitions
 Requires: parse-android-dynparts
 
