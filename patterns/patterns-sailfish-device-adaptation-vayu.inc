@@ -27,7 +27,7 @@ Requires: ofono-ril-binder-plugin
 Requires: dummy_netd
 
 # Sensors
-Requires: hybris-libsensorfw-qt5
+Requires: hybris-libsensorfw-qt5-binder
 
 # Vibra
 Requires: ngfd-plugin-native-vibrator
