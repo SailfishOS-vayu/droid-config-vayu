@@ -1,0 +1,7 @@
+service vendor.hvdcp_opti /vendor/bin/hvdcp_opti
+    setenv UEVENT_NETLINK_GROUPS 0xFFFFFFFD
+    setenv LD_PRELOAD /usr/libexec/droid-hybris/system/lib64/libcutils.so
+    class main
+    user root
+    group system wakelock
+    override

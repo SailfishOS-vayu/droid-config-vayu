@@ -1,0 +1,5 @@
+service time_daemon /vendor/bin/time_daemon_HYBRIS_DISABLED
+    override
+
+service vendor.wifi_hal_legacy /vendor/bin/hw/android.hardware.wifi@1.0-service_HYBRIS_DISABLED
+    override
