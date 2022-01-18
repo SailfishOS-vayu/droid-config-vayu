@@ -24,6 +24,7 @@ dmesg_info "$(mount -v -o ro /dev/mapper/dynpart-system  /system_root)"
 dmesg_info "$(mount --bind /system_root/system /system)"
 dmesg_info "$(mount -v -o ro /dev/mapper/dynpart-system_ext /system_ext)"
 dmesg_info "$(mount -v -o ro /dev/mapper/dynpart-vendor  /vendor)"
+dmesg_info "$(mount --bind /etc/audio_policy_configuration.xml /vendor/etc/audio_policy_configuration.xml)"
 dmesg_info "$(mount -v -o ro /dev/mapper/dynpart-odm   /odm2)"
 dmesg_info "$(mount -v -o ro /dev/mapper/dynpart-product /product)"
  
