@@ -18,13 +18,13 @@ dmsetup create --concise "$(/usr/bin/parse-android-dynparts $super_part)"
 dmesg_info "Dynamic partitions: $(ls /dev/mapper/dynpart-*)"
  
 dmesg_info "Mount dynamic partitions"
-mkdir -p /system_root /system_ext /vendor /odm /product /mnt
+mkdir -p /system_root /system_ext /vendor /odm2 /product /mnt
  
 dmesg_info "$(mount -v -o ro /dev/mapper/dynpart-system  /system_root)"
 dmesg_info "$(mount --bind /system_root/system /system)"
 dmesg_info "$(mount -v -o ro /dev/mapper/dynpart-system_ext /system_ext)"
 dmesg_info "$(mount -v -o ro /dev/mapper/dynpart-vendor  /vendor)"
-dmesg_info "$(mount -v -o ro /dev/mapper/dynpart-odm   /odm)"
+dmesg_info "$(mount -v -o ro /dev/mapper/dynpart-odm   /odm2)"
 dmesg_info "$(mount -v -o ro /dev/mapper/dynpart-product /product)"
  
 dmesg_info "Mount /vendor/*"

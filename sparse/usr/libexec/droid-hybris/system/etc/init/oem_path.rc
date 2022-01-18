@@ -1,2 +1,0 @@
-on fs 
-    export LD_LIBRARY_PATH /oem/lib:/oem/lib64
