@@ -1,2 +1,1 @@
-load-module module-udev-detect
-load-module module-droid-card rate=48000 quirks=+unload_call_exit
+load-module module-droid-card rate=48000 hw_volume=false unload_call_exit=true output_voip_rx=false record_voice_16k=true
