@@ -5,3 +5,8 @@ service vendor.hvdcp_opti /vendor/bin/hvdcp_opti
     user root
     group system wakelock
     override
+
+service vendor.audio-hal android.hardware.audio.service_DISABLED
+    disabled
+    oneshot
+    override
