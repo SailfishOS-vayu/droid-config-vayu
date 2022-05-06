@@ -23,7 +23,7 @@ Requires: libhybris-libwayland-egl
 Requires: bluebinder
 
 # Telephony
-Requires: ofono-ril-binder-plugin
+Requires: ofono-binder-plugin
 Requires: dummy_netd
 
 # Sensors
