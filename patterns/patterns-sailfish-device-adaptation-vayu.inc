@@ -29,7 +29,7 @@ Requires: modem_auto_config
 Requires: ofono-vendor-qti-radio-plugin
 
 # Sensors
-Requires: hybris-libsensorfw-qt5-binder
+Requires: hybris-libsensorfw-qt5
 
 # Vibra
 Requires: ngfd-plugin-native-vibrator
