@@ -47,6 +47,8 @@ Requires: jolla-mediaplayer
 Requires: jolla-calendar
 Requires: sailfish-weather
 Requires: sailfish-utilities
+Requires: sailfish-audiorecorder
+Requires: jolla-settings-networking-plugin-vpn-openfortivpn
 
 %description -n patterns-sailfish-device-configuration-vayu
 Pattern with packages for vayu configurations
