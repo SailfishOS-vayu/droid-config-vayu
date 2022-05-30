@@ -67,6 +67,11 @@ Requires: usb-moded
 # hammerhead, grouper, and maguro use this in scripts, so include for all
 Requires: rfkill
 
+# Enable home encryption
+Requires: droid-hwcrypt
+Requires: sailfish-device-encryption-community
+Requires: sailfish-device-encryption-community-droid
+
 #Add FP support
 Requires: sailfish-fpd-community
 Requires: sailfish-devicelock-fpd
