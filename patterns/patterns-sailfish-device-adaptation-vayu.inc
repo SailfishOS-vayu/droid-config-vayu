@@ -34,6 +34,7 @@ Requires: hybris-libsensorfw-qt5
 # Vibra
 Requires: ngfd-plugin-native-vibrator
 Requires: libngf-qt5-qtfeedback
+Requires: ngfd >= 1.4.0
 
 # Needed for /dev/touchscreen symlink
 Requires: qt5-plugin-generic-evdev
