@@ -859,8 +859,8 @@
         <ctl name="ADC MUX8" value="AMIC" />
         <ctl name="AMIC MUX8" value="ADC1" />
         <ctl name="SLIM_0_TX Channels" value="One" />
-        <ctl name="ADC3 Volume" value="5" />
-        <ctl name="ADC1 Volume" value="5" />
+        <ctl name="ADC3 Volume" value="9" />
+        <ctl name="ADC1 Volume" value="9" />
     </path>
 
     <path name="handset-stereo-dmic-ef">
@@ -887,8 +887,8 @@
         <ctl name="ADC MUX8" value="AMIC" />
         <ctl name="AMIC MUX8" value="ADC1" />
         <ctl name="SLIM_0_TX Channels" value="One" />
-        <ctl name="ADC3 Volume" value="6" />
-        <ctl name="ADC1 Volume" value="6" />
+        <ctl name="ADC3 Volume" value="8" />
+        <ctl name="ADC1 Volume" value="8" />
     </path>
 
     <path name="headphones">
