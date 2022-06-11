@@ -93,9 +93,6 @@ Requires: jolla-settings-system-flashlight
 # For suspend to work with enabled Wi-Fi on newer Qualcomm devices
 Requires: sailfish-connman-plugin-suspend
 
-# For mount partitions
-Requires: parse-android-dynparts
-
 %description -n patterns-sailfish-device-adaptation-vayu
 Pattern with packages for vayu HW Adaptation
 
