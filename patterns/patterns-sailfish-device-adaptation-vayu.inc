@@ -58,6 +58,8 @@ Requires: qtscenegraph-adaptation
 # For hybris devices with droidmedia, see HADK pdf for more information
 Requires: gstreamer1.0-droid
 Requires: gmp-droid
+# Doesn't work and prevents gmp-droid initialization
+Provides: gecko-camera-droid-plugin = 0.1.4
 
 # This is needed for notification LEDs
 Requires: mce-plugin-libhybris
