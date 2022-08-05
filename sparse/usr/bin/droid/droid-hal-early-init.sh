@@ -21,6 +21,15 @@ dmesg_info() {
 dmesg_info "Mount dynamic partitions"
 mkdir -p /system_root /system_ext /vendor /product /mnt /metadata
 
+# Android binder links
+dmesg_info "$(ln -svf /dev/binderfs/anbox-binder /dev/anbox-binder)"
+dmesg_info "$(ln -svf /dev/binderfs/anbox-hwbinder /dev/anbox-hwbinder)"
+dmesg_info "$(ln -svf /dev/binderfs/anbox-vndbinder /dev/anbox-vndbinder)"
+dmesg_info "$(ln -svf /dev/binderfs/puddlejumper /dev/puddlejumper)"
+dmesg_info "$(ln -svf /dev/binderfs/hwpuddlejumper /dev/hwpuddlejumper)"
+dmesg_info "$(ln -svf /dev/binderfs/vndpuddlejumper /dev/vndpuddlejumper)"
+
+
 dmesg_info "$(mount -v -o loop,ro,barrier=1,discard -t ext4 $system_part /system_root)"
 dmesg_info "$(mount --bind /system_root/system /system)"
 dmesg_info "$(mount -v -o loop,ro,barrier=1,discard -t ext4 $system_ext_part /system_ext)"
