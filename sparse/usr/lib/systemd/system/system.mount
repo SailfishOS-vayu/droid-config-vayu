@@ -1,0 +1,17 @@
+[Unit]
+Description=Droid mount for /system
+Before=local-fs.target systemd-modules-load.service
+
+[Mount]
+What=/system_root/system
+Where=/system
+Type=none
+Options=bind
+# Options had SELinux context option:  
+
+# Default is 90 which makes mount period too long in case of
+# errors so drop it down a notch.
+TimeoutSec=10
+
+[Install]
+WantedBy=local-fs.target
