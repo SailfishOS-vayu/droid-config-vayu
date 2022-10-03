@@ -9,11 +9,6 @@ metadata_part=/data/.stowaways/firmware/metadata.img
 # custom patches
 lipstick_patch=/data/.stowaways/patches/lipstick-jolla-home-qt5/statusarea/StatusArea.qml
 
-# Android binder links
-ln -svf /dev/binderfs/puddlejumper /dev/puddlejumper
-ln -svf /dev/binderfs/hwpuddlejumper /dev/hwpuddlejumper
-ln -svf /dev/binderfs/vndpuddlejumper /dev/vndpuddlejumper
-
 mount -v -o loop,ro,shortname=lower,uid=1000,gid=1000,dmask=227,fmask=337 -t vfat $modem_part  /vendor/firmware_mnt
 mount -v -o loop,ro,nosuid,nodev,barrier=1 -t ext4 $dsp_part /vendor/dsp
 mount -v -o loop,ro,shortname=lower,uid=1002,gid=3002,dmask=227,fmask=337 -t vfat $bluetooth_part /vendor/bt_firmware
