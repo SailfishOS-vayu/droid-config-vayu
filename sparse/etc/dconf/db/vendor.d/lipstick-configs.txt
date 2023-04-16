@@ -1,0 +1,7 @@
+[desktop/lipstick-jolla-home/peekfilter]
+boundaryWidth=60
+boundaryHeight=60
+pressDelay=800
+
+[desktop/sailfish/experimental]
+display_clock_on_launcher=true
