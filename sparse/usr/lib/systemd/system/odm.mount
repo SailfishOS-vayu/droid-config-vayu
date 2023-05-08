@@ -6,7 +6,7 @@ Before=local-fs.target systemd-modules-load.service
 What=/data/.stowaways/firmware/odm.img
 Where=/odm
 Type=ext4
-Options=ro,errors=panic
+Options=rw,errors=panic
 # Options had SELinux context option:  
 
 # Default is 90 which makes mount period too long in case of
